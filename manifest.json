@@ -1,14 +1,16 @@
 {
-  "name": "Colores de Oliver",
-  "short_name": "Colores de Oli",
+  "name": "Colores de Luis",
+  "short_name": "Colores de Luis",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#000000",
   "icons": [
     {
-      "src": "icono.png",
-      "type": "image/png"
+      "src": "abc.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
     }
   ]
 }
