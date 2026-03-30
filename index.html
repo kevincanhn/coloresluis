@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="manifest" href="manifest.json">
-    <title>Los Colores de Oliver</title>
+    <title>Los Colores de Luis</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         /* Deshabilitar selección de texto para que parezca más una app */
@@ -62,7 +62,7 @@
     <!-- PANTALLA DE INICIO -->
     <div id="screen-home" class="flex-1 flex flex-col items-center justify-center p-6 space-y-8 absolute inset-0 bg-green-50 z-10">
         <div class="text-center animate-pop">
-            <h1 class="text-4xl md:text-6xl font-extrabold text-blue-600 mb-2">¡Hola Oliver! 👋</h1>
+            <h1 class="text-4xl md:text-6xl font-extrabold text-blue-600 mb-2">¡Hola Luis! 👋</h1>
             <p class="text-2xl md:text-3xl font-bold text-gray-600">Vamos a jugar con los colores 🎨</p>
         </div>
 
@@ -141,7 +141,7 @@
             { nombre: 'Rosa', hex: '#EC4899', texto: 'text-pink-500' },
             { nombre: 'Negro', hex: '#1F2937', texto: 'text-gray-800' },
             { nombre: 'Blanco', hex: '#FFFFFF', texto: 'text-gray-400', borde: true },
-            // Nuevos colores agregados para Oliver
+            // Nuevos colores agregados para Luis
             { nombre: 'Café', hex: '#8B4513', texto: 'text-amber-900' },
             { nombre: 'Gris', hex: '#6B7280', texto: 'text-gray-500' },
             { nombre: 'Celeste', hex: '#38BDF8', texto: 'text-sky-400' },
@@ -329,8 +329,8 @@
 
         function verificarRespuesta(colorSeleccionado, elementoBoton) {
             if (colorSeleccionado === colorObjetivoJuego) {
-                // ¡CORRECTO! - Personalizado para Oliver
-                hablar(`¡Muy bien Oliver! Ese es el ${colorSeleccionado.nombre}.`);
+                // ¡CORRECTO! - Personalizado para Luis
+                hablar(`¡Muy bien Luis! Ese es el ${colorSeleccionado.nombre}.`);
                 elementoBoton.classList.add('animate-bounce-scale');
                 lanzarConfeti();
                 
